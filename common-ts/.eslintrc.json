@@ -28,9 +28,12 @@
     }],
     "@typescript-eslint/interface-name-prefix": ["error", "always"],
     "@typescript-eslint/no-non-null-assertion": "error",
-    "@typescript-eslint/array-type": {
-      "default": "generic"
-    },
+    "@typescript-eslint/array-type": [
+      "error",
+      {
+        "default": "generic"
+      }
+    ],
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/type-annotation-spacing": ["error", {
