@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Taimoormk/lint-config.git"
+    "url": "git+https://github.com/Taimoormk/eslint-config-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -18,9 +18,9 @@
   "author": "Taimoor Khan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Taimoormk/lint-config/issues"
+    "url": "https://github.com/Taimoormk/eslint-config-shared/issues"
   },
-  "homepage": "https://github.com/Taimoormk/lint-config#readme",
+  "homepage": "https://github.com/Taimoormk/eslint-config-shared#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
