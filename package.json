@@ -1,0 +1,36 @@
+{
+  "name": "@taimoormk/lint-config",
+  "version": "1.0.2",
+  "description": "Central configs for all lint configs",
+  "main": "index.js",
+  "scripts": {
+    "publish:github": "npm publish",
+    "publish:npm": "npm publish --access public",
+    "upgrade": "ncu -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taimoormk/lint-config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Taimoor Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Taimoormk/lint-config/issues"
+  },
+  "homepage": "https://github.com/Taimoormk/lint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "tslint": "^6.1.2",
+    "tslint-react": "^5.0.0"
+  }
+}
