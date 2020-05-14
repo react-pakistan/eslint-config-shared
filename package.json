@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/Taimoormk/eslint-config-shared#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.31.0",
-    "@typescript-eslint/parser": "^2.31.0",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.0.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react": "^7.20.0",
     "tslint": "^6.1.2",
     "tslint-react": "^5.0.0"
   }
