@@ -26,7 +26,7 @@
       "allowTypedFunctionExpressions": true,
       "allowHigherOrderFunctions": true
     }],
-    "@typescript-eslint/interface-name-prefix": [true, "always-prefix"],
+    "@typescript-eslint/interface-name-prefix": "error",
     "@typescript-eslint/no-non-null-assertion": "error",
     "@typescript-eslint/array-type": [
       "error",
