@@ -1,6 +1,6 @@
 {
   "name": "@taimoormk/eslint-config-shared",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Central configs for all lint configs",
   "main": "index.js",
   "scripts": {
