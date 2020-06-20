@@ -1,6 +1,6 @@
 {
   "name": "@taimoormk/eslint-config-shared",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Central configs for all lint configs",
   "main": "index.js",
   "scripts": {
@@ -25,10 +25,10 @@
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "@typescript-eslint/parser": "^2.34.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.2.0",
+    "eslint": "^7.3.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.0",
     "tslint": "^6.1.2",
     "tslint-react": "^5.0.0"
