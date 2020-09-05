@@ -1,19 +1,14 @@
 {
   "extends": [
     "airbnb",
-    "../ts-base/.eslintrc.json"
+    "airbnb/hooks",
+    "../ts-base/.eslintrc.json",
+    "../common-ts/.eslintrc.json"
   ],
   "env": {
     "browser": true
   },
   "rules": {
-    "react/jsx-filename-extension": [2, { "extensions": [" .jsx", ".tsx"] }],
-    "sort-imports": ["error", {
-      "ignoreCase": false,
-      "ignoreDeclarationSort": false,
-      "ignoreMemberSort": false,
-      "memberSyntaxSortOrder": ["none", "all", "multiple", "single"],
-      "allowSeparatedGroups": false
-    }]
+    "react/jsx-filename-extension": [2, { "extensions": [" .jsx", ".tsx"] }]
   }
 }
