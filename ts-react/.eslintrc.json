@@ -1,7 +1,7 @@
 {
   "extends": [
     "airbnb",
-    "../common-ts/.eslintrc.json"
+    "../ts-base/.eslintrc.json"
   ],
   "env": {
     "browser": true
