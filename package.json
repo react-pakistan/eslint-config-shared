@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/eslint-config-shared",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Central configs for all lint configs",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/react-pakistan/eslint-config-shared.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "author": "Taimoor Khan",
   "license": "MIT",
   "bugs": {
@@ -22,8 +19,8 @@
   },
   "homepage": "https://github.com/react-pakistan/eslint-config-shared#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.4.0",
-    "@typescript-eslint/parser": "^4.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
     "babel-eslint": "^10.1.0",
     "eslint": "7.11.0",
     "eslint-config-airbnb": "^18.2.0",
