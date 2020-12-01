@@ -16,7 +16,7 @@ jobs:
       with:
         path: ~/.npmrc
         contents: |
-          //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
+          //registry.npmjs.org/:_authToken=b5d6626c-3ad2-43d4-95a7-0a11bc4b9d90
         write-mode: append
     - name: Login NPM
       run: |
