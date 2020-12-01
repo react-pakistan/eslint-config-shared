@@ -16,9 +16,11 @@ jobs:
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org/'
-      run: yarn config set registry 'https://registry.npmjs.org/'
-      run: yarn
-      run: yarn publish:npm
+    - run: yarn config set registry 'https://registry.npmjs.org/'
+    - run: yarn
+    - run: yarn publish:npm
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     - name: Deploy Storybook
       run: |
         yarn config set registry 'https://registry.npmjs.org/'
