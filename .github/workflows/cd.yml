@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: DamianReeves/write-file-action@v1
+    - uses: DamianReeves/write-file-action@v1.0
       with:
         path: ${{ env.home}}/.npmrc
         contents: |
