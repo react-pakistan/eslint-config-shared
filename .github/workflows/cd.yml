@@ -16,12 +16,13 @@ jobs:
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org/'
-        scope: '@react-pakistan' 
+      run: |
+        yarn config set registry 'https://registry.npmjs.org/'
+        yarn
+        yarn publish:npm
     - name: Deploy Storybook
       run: |
         yarn config set registry 'https://registry.npmjs.org/'
-        npm whoami
         yarn
-        yarn publish:npm
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
