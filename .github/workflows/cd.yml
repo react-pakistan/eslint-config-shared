@@ -15,7 +15,7 @@ jobs:
       with:
         auth-token: ${{ secrets.NPM_TOKEN }}
         registry-url: "https://registry.npmjs.org"
-        scope: react-pakistan
+        scope: taimoormk
     - uses: DamianReeves/write-file-action@v1.0
       with:
         path: ~/.npmrc
@@ -24,6 +24,7 @@ jobs:
         write-mode: append
     - name: Login NPM
       run: |
+        npm login
         npm whoami
     - name: Deploy Storybook
       run: |
