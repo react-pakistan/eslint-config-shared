@@ -15,9 +15,10 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-        registry-url: 'https://registry.npmjs.org'
+        registry-url: 'https://registry.npmjs.org/'
     - name: Deploy Storybook
       run: |
+        yarn config set registry 'https://registry.npmjs.org/'
         yarn
         yarn publish:npm
       env:
