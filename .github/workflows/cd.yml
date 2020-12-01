@@ -15,8 +15,8 @@ jobs:
     - name: Login NPM
       run: |
         npm whoami
-        npm config set @myco:registry https://reg.example.com
-        npm config set //reg.example.com/:_authToken ${{ secrets.NPM_TOKEN }}
+        npm config set @react-pakistan:registry https://registry.npmjs.org/
+        npm config set //registry.npmjs.com/:_authToken ${{ secrets.NPM_TOKEN }}
         npm whoami
         # npm login --registry=https://reg.example.com --scope=@myco --token=b5d6626c-3ad2-43d4-95a7-0a11bc4b9d90
     - name: Deploy Storybook
