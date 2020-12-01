@@ -1,4 +1,4 @@
-name: Publish package to NPM
+name: Publish to NPM
 
 on:
   pull_request:
@@ -11,20 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout repo
     - uses: actions/checkout@v2
+
+    - name: Setup Node Registry
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org/'
-        scope: taimoormk
-    - run: yarn config set registry 'https://registry.npmjs.org/'
-    - run: yarn
-    - run: yarn publish:npm
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-    - name: Deploy Storybook
+        # scope: taimoormk
+    # - run: yarn config set registry 'https://registry.npmjs.org/'
       run: |
-        yarn config set registry 'https://registry.npmjs.org/'
         yarn
+        yarn publish:npm
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
