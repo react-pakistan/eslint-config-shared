@@ -16,6 +16,7 @@ jobs:
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org/'
+        scope: '@react-pakistan' 
     - name: Deploy Storybook
       run: |
         npm whoami
