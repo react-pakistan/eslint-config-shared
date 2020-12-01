@@ -11,22 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
       with:
-        auth-token: ${{ secrets.NPM_TOKEN }}
-        registry-url: "https://registry.npmjs.org"
-        scope: taimoormk
-    - uses: DamianReeves/write-file-action@v1.0
-      with:
-        path: ~/.npmrc
-        contents: |
-          //registry.npmjs.org/:_authToken=b5d6626c-3ad2-43d4-95a7-0a11bc4b9d90
-        write-mode: append
-    - name: Login NPM
-      run: |
-        npm login
-        npm whoami
+        node-version: '12.x'
+        registry-url: 'https://registry.npmjs.org'
     - name: Deploy Storybook
       run: |
         yarn
         yarn publish:npm
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
