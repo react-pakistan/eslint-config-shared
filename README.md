@@ -16,7 +16,7 @@
     target="_blank"
   >
     <img
-      alt="Taimoor Khan - React Commons Collection Author"
+      alt="Taimoor Khan - Eslint Config Shared Author"
       src="https://avatars1.githubusercontent.com/u/27800340?s=460&v=4"
       width="20%"
     />
@@ -25,9 +25,9 @@
 
 React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community. ⭐⭐⭐
 
-## 📌 React Pakistan Docs ✌
+## 📌 Eslint Config Shared ✌
 
-A central place to declare all React Web util functions for ReactPakistan eco-system.
+A central place to define all shared Eslint rules for JS & TS development.
 
 ### 📌 Table of Contents 🚀
 
@@ -37,10 +37,6 @@ A central place to declare all React Web util functions for ReactPakistan eco-sy
 - [Support](#-support-) ✨
 - [Contact](#-contact-) ✨
 - [Buy Me Coffee](#-buy-me-coffee-) ✨
-
-### 📌 Demo 🚀
-
-Checkout [React Commons Collection](https://taimoormk.github.io/react-commons-collection)
 
 ### 📌 Technology Stack 🚀
 
