@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: DamianReeves/write-file-action
-        with:
+      with:
         path: ${{ env.home}}/.npmrc
         contents: |
           //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
