@@ -12,6 +12,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+      with:
+        auth-token: ${{ secrets.NPM_TOKEN }}
+        registry-url: "https://registry.npmjs.org"
+        scope: react-pakistan
     - uses: DamianReeves/write-file-action@v1.0
       with:
         path: ~/.npmrc
