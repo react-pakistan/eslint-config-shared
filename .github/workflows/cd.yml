@@ -19,8 +19,8 @@ jobs:
         scope: '@react-pakistan' 
     - name: Deploy Storybook
       run: |
-        npm whoami
         yarn config set registry 'https://registry.npmjs.org/'
+        npm whoami
         yarn
         yarn publish:npm
       env:
