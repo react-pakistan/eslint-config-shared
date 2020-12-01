@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org/'
-        scope: 'taimoormk'
+        scope: '@taimoormk'
     - run: yarn config set registry 'https://registry.npmjs.org/'
     - run: yarn
     - run: yarn publish:npm
