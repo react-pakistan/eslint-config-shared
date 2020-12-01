@@ -4,6 +4,9 @@
   "description": "Central configs for all lint configs",
   "main": "index.js",
   "scripts": {
+    "major": "npm version major",
+    "minor": "npm version minor",
+    "patch": "npm version patch",
     "publish:github": "npm publish",
     "publish:npm": "npm publish --access public",
     "upgrade": "ncu -u"
