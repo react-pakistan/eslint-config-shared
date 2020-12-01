@@ -13,13 +13,15 @@ jobs:
     steps:
     - name: Checkout repo
     - uses: actions/checkout@v2
+
     - name: Setup Node Registry
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org/'
         # scope: taimoormk
-    # - run: yarn config set registry 'https://registry.npmjs.org/'
+    - run: yarn config set registry 'https://registry.npmjs.org/'
+
     - name: Publish to NPM
       run: |
         yarn
