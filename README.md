@@ -25,10 +25,12 @@
 
 React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community. ⭐⭐⭐
 
-[![License](https://img.shields.io/github/license/react-pakistan/react-native-boilerplate.svg)](https://github.com/react-pakistan/react-native-boilerplate/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/react-pakistan/eslint-config-shared.svg)](https://github.com/react-pakistan/eslint-config-shared/blob/master/LICENSE)
 [![Followers](https://img.shields.io/github/followers/taimoormk.svg?style=social)](https://github.com/taimoormk)
-[![Forks](https://img.shields.io/github/forks/react-pakistan/react-native-boilerplate.svg?style=social)](https://github.com/react-pakistan/react-native-boilerplate)
-[![Stars](https://img.shields.io/github/stars/react-pakistan/react-native-boilerplate.svg?style=social)](https://github.com/react-pakistan/react-native-boilerplate)
+[![Forks](https://img.shields.io/github/forks/react-pakistan/eslint-config-shared.svg?style=social)](https://github.com/react-pakistan/eslint-config-shared)
+[![Stars](https://img.shields.io/github/stars/react-pakistan/eslint-config-shared.svg?style=social)](https://github.com/react-pakistan/eslint-config-shared)
+
+[![@react-pakistan/eslint-config-shared](https://snyk.io/advisor/npm-package/@react-pakistan/eslint-config-shared/badge.svg)](https://snyk.io/advisor/npm-package/@react-pakistan/eslint-config-shared)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Taimoormk/StrapDown.js/graphs/commit-activity)
 ![Maintaner](https://img.shields.io/badge/maintainer-TaimoorKhan-blue)
