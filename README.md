@@ -41,7 +41,7 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
 
 [![DenverCoder1's github streak](https://github-readme-streak-stats.herokuapp.com/?user=Taimoormk&theme=blue-green)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
-[![Sparkline](https://stars.medv.io/Naereen/badges.svg)](https://stars.medv.io/react-pakistan/react-native-icon-collection)
+[![Sparkline](https://stars.medv.io/Taimoornk/badges.svg)](https://stars.medv.io/react-pakistan/react-native-icon-collection)
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/Taimoormk)
 
