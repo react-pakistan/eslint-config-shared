@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/eslint-config-shared",
-  "version": "1.2.38",
+  "version": "1.2.40",
   "description": "Central configs for all lint configs",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   "homepage": "https://github.com/react-pakistan/eslint-config-shared#readme",
   "dependencies": {
     "@babel/eslint-parser": "^7.14.7",
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.28.4",
     "eslint": "7.31.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.23.4",
@@ -34,6 +34,6 @@
     "typescript": "^4.3.5"
   },
   "devDependencies": {
-    "stylelint-react-native": "^2.2.0"
+    "stylelint-react-native": "^2.3.0"
   }
 }
