@@ -1,8 +1,8 @@
 {
-  "parser": "babel-eslint",
   "env": {
     "es6": true
   },
+  "parser": "@babel/eslint-parser",
   "settings": {
     "import/resolver": {
       "node": {

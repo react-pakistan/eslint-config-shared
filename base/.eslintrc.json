@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "airbnb-base",
-    "../common-js/.eslintrc.json"
-  ],
-  "env": {
-    "node": true
-  }
-}
