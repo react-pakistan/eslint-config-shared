@@ -1,13 +1,13 @@
 {
-  "extends": [
-    "airbnb",
-    "airbnb/hooks",
-    "../ts-base/.eslintrc.json",
-    "../common-ts/.eslintrc.json"
-  ],
   "env": {
     "browser": true
   },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "../ts-base/.eslintrc",
+    "../common-ts/.eslintrc"
+  ],
   "rules": {
     "react/jsx-filename-extension": [2, { "extensions": [" .jsx", ".tsx"] }]
   }
