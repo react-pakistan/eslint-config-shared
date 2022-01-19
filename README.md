@@ -32,9 +32,8 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
 
 [![@react-pakistan/eslint-config-shared](https://snyk.io/advisor/npm-package/@react-pakistan/eslint-config-shared/badge.svg)](https://snyk.io/advisor/npm-package/@react-pakistan/eslint-config-shared)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Taimoormk/StrapDown.js/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://gitHub.com/Taimoormk/StrapDown.js/graphs/commit-activity)
 ![Maintaner](https://img.shields.io/badge/maintainer-TaimoorKhan-blue)
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Taimoormk/ama)
 
 [![Ryo-ma's github trophy](https://github-profile-trophy.vercel.app/?username=Taimoormk&row=1)](https://github.com/ryo-ma/github-profile-trophy)
