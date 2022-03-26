@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/eslint-config-shared",
-  "version": "1.4.18",
+  "version": "1.4.19",
   "description": "Central configs for all lint configs",
   "main": "index.js",
   "scripts": {
