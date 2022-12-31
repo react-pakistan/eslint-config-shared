@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/eslint-config-shared",
-  "version": "1.4.53",
+  "version": "1.4.54",
   "description": "Central configs for all lint configs",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "@babel/preset-env": "^7.20.2",
     "@typescript-eslint/eslint-plugin": "^5.47.1",
     "@typescript-eslint/parser": "^5.47.1",
-    "eslint": "8.30.0",
+    "eslint": "8.31.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
