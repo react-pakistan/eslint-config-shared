@@ -74,7 +74,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <div>
   <a
-    href="https://taimoormk.github.io/react-commons-collection"
+    href="https://react-commons-collection.surge.sh"
     target="_blank"
   >
     <img
@@ -97,7 +97,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <div>
   <a
-    href="https://taimoormk.github.io/react-ui-collection"
+    href="https://react-ui-collection.surge.sh"
     target="_blank"
   >
     <img
