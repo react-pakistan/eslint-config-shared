@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/eslint-config-shared",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "description": "Central configs for all lint configs",
   "main": "index.js",
   "scripts": {
@@ -38,5 +38,9 @@
   },
   "devDependencies": {
     "stylelint-react-native": "^2.6.0"
+  },
+  "engines": {
+    "npm": ">=9.6.7",
+    "node": ">=18.17.0"
   }
 }
