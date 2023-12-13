@@ -1,4 +1,4 @@
-name: Publish to NPM
+name: publish to npm
 
 on:
   pull_request:
@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: checkout repo
       uses: actions/checkout@v2
 
-    - name: Setup Node Registry
+    - name: setup node registry
       uses: actions/setup-node@v1
       with:
-        node-version: '16.x'
+        node-version: '18.x'
         registry-url: 'https://registry.npmjs.org/'
 
-    - name: Publish to NPM
+    - name: publish to npm
       run: |
         yarn
         yarn config set registry 'https://registry.npmjs.org/'
